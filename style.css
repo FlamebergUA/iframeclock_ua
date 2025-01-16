@@ -1,0 +1,65 @@
+/*CSS RESETS*/
+
+body, html {
+    height: 100%;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+
+/*CSS START*/
+
+.full-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.card {
+    padding: 10px 50px 10px 50px;
+    border-radius: 10px;
+    background: #F6E6D7;
+    color: #295C7B;
+    display: inline-block;
+    box-shadow: 2px 2px 1px 0px #295C7B;
+}
+
+.card:hover {
+    margin-top: 2px;
+    box-shadow: none;
+}
+
+.clock {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    padding-left: 20px;
+}
+
+.time {
+    display: inline-block;
+    min-width: 37px;
+}
+
+.colon {
+    font-size: 1.1em;
+    display: inline-block;
+}
+
+.date {
+    display: inline-block;
+    min-width: 162px;
+    padding-right: 30px;
+    border-right: 2px solid #295C7B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+}

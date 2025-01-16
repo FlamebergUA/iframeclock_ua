@@ -11,16 +11,12 @@ h1 {
 
 /*CSS START*/
 
-.full-table {
-    display: table;
-    height: 100%;
-    width: 100%;
-}
-
 .table-cell {
-    display: table-cell;
-    vertical-align: middle;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
 }
 
 .card {

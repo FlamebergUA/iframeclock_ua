@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
             month: 'long',
             day: 'numeric',
         };
-        document.getElementById('date').innerHTML = today.toLocaleDateString('en-US', options);
+        document.getElementById('date').innerHTML = today.toLocaleDateString('uk-UK', options);
     }
 
     function clock() {

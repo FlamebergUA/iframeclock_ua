@@ -1,13 +1,19 @@
 document.addEventListener("DOMContentLoaded", function() {
+    function capitalizeFirstLetter(string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+    }
+
     function date() {
         var today = new Date();
+        var dayNames = ['неділя', 'понеділок', 'вівторок', 'середа', 'четвер', 'п’ятниця', 'субота'];
+        var day = capitalizeFirstLetter(dayNames[today.getDay()]);
         var options = {
-            weekday: 'long',
             year: 'numeric',
             month: 'long',
             day: 'numeric',
         };
-        document.getElementById('date').innerHTML = today.toLocaleDateString('uk-UK', options);
+        var formattedDate = today.toLocaleDateString('uk-UA', options);
+        document.getElementById('date').innerHTML = day + ', ' + formattedDate;
     }
 
     function clock() {

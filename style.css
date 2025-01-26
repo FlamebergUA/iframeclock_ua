@@ -37,7 +37,7 @@ h1 {
 .clock {
     display: inline-block;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 4vw; /* Updated to use vw for responsive font size */
     padding-left: 20px;
 }
